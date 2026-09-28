@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "1c34432d-89aa-4d6d-bad3-a773d5ad68de",
+  "revision": 13691,
+  "createdAt": "2026-09-28T07:32:00.005Z",
+  "exportedAt": "2026-09-28T21:23:21.421Z",
+  "learnerLabel": "Jose Romero",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "W02-S01- Source Record Request for a bounded review. Mara Ilyan's proposal for a QA control review in the affected cell is important because what she stated was true. To solve the incident regarding the command, and before any actual steps can be taken to resolve the issue, information is needed on who authorized the command itself, who in particular is in charge of the retired tests, and preserving the available evidence right now as opposed to just restarting the robot."
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "For W02-S01, determining how the evidence will actually be stored and utilized for further analysis and help needs to be improved on. While time constraints are given for evaluating the proposal, the approved funding would also play a role in fixing the issue with the robot. \nIn regards to W02-S01, we need to determine what losses would come from the review such as there being downtime, or the company suffering losses. The staff retrieval times would also need improvement and this would relate back to preserving the evidence. "
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "The QA and engineering teams would benefit from the ability to have a traceable record because it would allow for deeper investigation. This review would also give Operations a defensible reason to request later work given the current unexpected circumstances."
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "In W02-S03, the work includes the information regarding the one who authorized the command in the QA cell, what inventory exactly was utilized by the controls to schedule or retire the test commands. Along with the preservation of the evidence and information as opposed to attempting to restart MR-17. The deliverables include the owner of the command, the test command itself and its scheduling and retirement controls, and recordings of the information which resulted. The evidence records must remain intact for the investigation. The deliverables have included, one command-ownership record, one scheduling/retirement control inventory, and one evidence-preservation checklist. The unknown owners or missing evidence also need to be recorded."
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "This review does not authorize MR-17 being restarted, the software or schedules being altered, the alteration or deletion of the original records, getting a replacement robot instead, choosing the vendor, and the extension of the review to other cells. "
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "The available tools can support the review. In W02-S04, the required review is able to utilize the read-only record exports and the existing documentation tools. However, access to the necessary exports has not been confirmed, if it is denied the work will need revision or be deferred."
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "The work can be fit around the duties of QA, the relevant custodian, and Engineering. Given that QA requests the record, the custodian will pinpoint it, and then QA and Engineering will try to determine its origin and purpose. Especially since the workflow aligns the people with what's needed to resolve the issue. The analysist and operations need to confirm availability. If the scope is changed there needs to be an explanation of what is kept or set aside.\n\nYes, the people can fit the work around their duties and use its outputs but availability will need to be confirmed. Availability will need to be confirmed by all, but especially, engineering and QA. This is because engineering has twelve hours but no earlier than day 4. QA has eight hours but during days five through seven. Especially due to the fact that the proposed duration is eight business days. "
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "In W02-S05, the $2,820 base is good because it would fall below the range of the $3,000 envelope. However, in the $2,350-$3,525 range, the upper limit goes beyond the $3,000 envelope. It is also very important to note that in these calculations, the equipment, software license, and overtime allowance are all excluded. "
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "The eight-business-day plan is feasible in regards to the the ten day limit, seeing as it would not fall outside the scope of the ten allotted days. However, this is assumes everything goes according to plan because as mentioned there are risks which need to be accounted for. In the event that one of the risks does arise, so could a potential delay. The business plan has two days to spare in regards to the ten-day limit, but again, this is if it all moves without fail."
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "As far as known constraints go, the proposed elapsed duration is eight business days. This is also under the assumption that the exports will arrive by day three and the review tasks will be able to overlap. The regular duties also remain in place. The learner work stays outside the safety glass. The original records need to be preserved. Read only copies need to be used, missing information must be recorded, and permission to operate equipment is not given with a training recommendation. "
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "The estimate or delivery could be changed if access to the needed exports is denied. The proposed eight business days assumes that the exports will arrive by the third day and that the review tasks can overlap. The QA window could also be removed if there is a shift reassignment. Engineering could be delayed with late exports. Engineering is unable to begin prior to day four. These are all risks which need to be accounted for. The necessary exports need checking and the team will have to revise or defer it in the event access is denied."
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "The six requests to locate and cross-check relevant records would allow the sponsor to check the delivery status in regards to the issue with the command being resolved. The later value would be determined by whether the review would involve obstacles such as robot downtime, a large loss in company sales, or overall losses. "
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "revise"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "There are uncertainties found throughout the entire process which need to be better accounted for. As shown from W02-S04, the eight business day plan would be a success if no risks occurred. However, the the uncertainty of whether access to the exports is accepted poses a big risk. A risk which could delay the whole operation. Especially the risk involving Engineering seeing as they can't begin until day four. Since regular duties also remain in place, there is the risk of a shift reassignment removing the QA window. While its great that the eight business days would be below the ten-day limit constraint, and it allows a couple days for flexibility, the potential of the risks places uncertainty to the operation. Additionally, in W02-S05, the base estimate came out to $2,820 with forty-eight staff hours. Although this fits the $3,000 envelope constraint, it's absolutely cutting it way to close. The planning estimate came out to a range between $2,350-$3,525. Here, the upper estimate is over the $3,000 envelope by $525. Not only that but these estimates aren't even guaranteed costs or a quote. The estimate also leaves out purchasing equipment, software licenses, and overtime allowance. Risks need to be limited. Especially risks which could cause the whole system to fail. When the costs and timeline are at risk, the margin for error becomes very small and that is worrying. "
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "The three review deliverables need to be examined by Nia and Elias. Which consist of one-command ownership record, one scheduling/retirement control inventory, and one evidence-preservation checklist. They need to review the source references, unknowns, and the preservation steps. Mara also needs to record their feedback which will be given to the sponsor. The staff recorded six requests also need to be maintained. The sponsor will then have to make the next decision by agreeing on a target and collection method."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
