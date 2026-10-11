@@ -1,0 +1,91 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 3,
+  "assignmentId": "CIT140-W03-STAKEHOLDER-MAP",
+  "artifactType": "stakeholder-map",
+  "caseId": "meridian-forge",
+  "reportId": "3f1cd7e8-bbab-49ed-befa-d967b211e8e8",
+  "revision": 8284,
+  "createdAt": "2026-09-29T16:14:14.508Z",
+  "exportedAt": "2026-10-11T08:47:29.837Z",
+  "learnerLabel": "Jose Romero",
+  "contentStatus": "draft",
+  "sections": [
+    {
+      "id": "qa",
+      "title": "QA and night-shift operators",
+      "value": "In W03-S01 it is clear that the operators and their work is affected. The night shift operators are affected participants since they utilize the cell through the night. The operators work is also impacted because they perform checks and record exceptions.\n"
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering",
+      "value": "Elia Chen is the robotics systems engineer. As stated in W03-S02, he has the ability to explain the available command and schedule records and review the technical interpretations. However, he does not have the ability to tell where the repeated command originated from. Also, Elias needs read-only exports with source details. He also asked for the record custodian to attend a short access discussion before any delivery dates are brought up. Technical expertise has to do with advising on the practicality of the operations. Whereas approval authority has to do with actual authorizations."
+    },
+    {
+      "id": "operations",
+      "title": "Operations",
+      "value": "In the W03-S04 Operations consultation request, Mara will carry the recommendation into review. Mara needs a clear route for decisions and a usable summary of who needs to be consulted. Mara asked the analyst to distinguish the people doing the work, those affected by it, the people offering advice, and the role that can authorize it. Also, it is stated that Mara can seek contact confirmation. There needs to be another decision-maker regarding the timing, seeing as there is no agreement recorded."
+    },
+    {
+      "id": "authority",
+      "title": "Sponsor and record custodian",
+      "value": "In W03-S03, QA, Engineering, and Operations are named as participants in the proposed QA control review. The record-custodian entry has no named contact and there is no confirmation that a custodian accepted the responsibility, therefore this still needs confirmation. Operations routes recommendations to the authorizing sponsor. The name holder, approval limits, and signed authorization are not supplied. The sponsor can authorize the proposed work within the organization's approval process. "
+    },
+    {
+      "id": "conflict",
+      "title": "Competing needs and tradeoff",
+      "value": "The review sessions need to be organized around shift duties. In W03-S01, it is mentioned that although a daytime meeting could be convenient for the operations side, this is still not a plan for hearing the night-shift. In W03-S04, Mara proposes one day time meeting. There is no agreement recorded on the timing. A way that both sides could be heard would be through having multiple meetings, or at least one during later hours, because this way there would also be participation and input from the night-shift."
+    },
+    {
+      "id": "engagement",
+      "title": "Consultation plan",
+      "value": "The authorizing sponsor needs to be consulted because operations routes recommendations to the authorizing sponsor. Then, the sponsor role can authorize the proposed work within the organization's approval process. The timing needs to be organized between Operations and the night-shift so that a clear route for decisions can be obtained. What arrangements would work for them? The original evidence needs to be maintained and the review sessions need to be arranged around shift duties. The record custodian also needs to be spoken to because someone is needed to confirm the source details and access arrangements. Which custodian can accept the responsibility? Elias Chen has asked for that discussion but that does not mean access was authorized. A person with little formal authority may still need a voice because their work is being impacted."
+    },
+    {
+      "id": "unknowns",
+      "title": "Missing voices and validation",
+      "value": "The record custodian need to confirm the source details and access arrangements. It is the reason why Elias asked them to attend a short access discussion before anyone promises delivery dates. Also, an operator has not yet been selected for the review, thus they are a missing voice. A night-shift operator needs to participate in checking the workflow. Nia should seek confirmation. Nia can review whether the proposed record-checking workflow fits QA work."
+    },
+    {
+      "id": "nextStep",
+      "title": "Next step toward requirements",
+      "value": "There needs to be an agreement on the timing between operations and the night-shift because currently there is no agreement on timing recorded. There needs to be a distinction between the people doing the work, those who will be affected by it, the people offering specialist advice, and the role that has the power to authorize it. Reaching an agreement on the timing would allow night-shift and operations to effectively be voiced, which lead to a clear route for decisions and a usable summary. Still, this won't authorize the project. The record custodian also needs to be confirmed before detailed requirements interviews. "
+    },
+    {
+      "id": "bookUse",
+      "title": "Book form connection",
+      "value": "One way in which the the tools improved my consultation plan was that they allowed me to think deeper behind why tools are vital to the system. Tools have the ability to enhance a system because of the relationship that is present between the person and the tool itself. This relationship is important because it is what can allow for problems to be solved, and overall purposeful actions."
+    },
+    {
+      "id": "bookFile",
+      "title": "Book evidence filename",
+      "value": "https://github.com/joser3500/CIT140-Portfolio/blob/ad3b88b092985c7bbaa03c5267f0160dad17f73a/Week03/Romero_Jose_CIT140_Week03_Book_Form_PNG.png"
+    }
+  ],
+  "sources": [
+    {
+      "id": "W03-S01",
+      "title": "QA participation note",
+      "locator": "Week 3 participation packet / W03-S01"
+    },
+    {
+      "id": "W03-S02",
+      "title": "Engineering participation note",
+      "locator": "Week 3 participation packet / W03-S02"
+    },
+    {
+      "id": "W03-S03",
+      "title": "Participation and authority register",
+      "locator": "Week 3 participation packet / W03-S03"
+    },
+    {
+      "id": "W03-S04",
+      "title": "Operations consultation request",
+      "locator": "Week 3 participation packet / W03-S04"
+    }
+  ],
+  "attachments": [],
+  "relatedReportIds": []
+}
