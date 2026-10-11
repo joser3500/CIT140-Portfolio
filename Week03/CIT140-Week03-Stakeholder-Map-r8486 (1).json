@@ -7,21 +7,21 @@
   "artifactType": "stakeholder-map",
   "caseId": "meridian-forge",
   "reportId": "3f1cd7e8-bbab-49ed-befa-d967b211e8e8",
-  "revision": 8284,
+  "revision": 8486,
   "createdAt": "2026-09-29T16:14:14.508Z",
-  "exportedAt": "2026-10-11T08:47:29.837Z",
+  "exportedAt": "2026-10-11T09:18:09.620Z",
   "learnerLabel": "Jose Romero",
   "contentStatus": "draft",
   "sections": [
     {
       "id": "qa",
       "title": "QA and night-shift operators",
-      "value": "In W03-S01 it is clear that the operators and their work is affected. The night shift operators are affected participants since they utilize the cell through the night. The operators work is also impacted because they perform checks and record exceptions.\n"
+      "value": "In W03-S01 it is clear that the operators and their work is affected. The night shift operators are affected participants since they utilize the cell through the night. The operators work is also impacted because they perform checks and record exceptions."
     },
     {
       "id": "engineering",
       "title": "Engineering",
-      "value": "Elia Chen is the robotics systems engineer. As stated in W03-S02, he has the ability to explain the available command and schedule records and review the technical interpretations. However, he does not have the ability to tell where the repeated command originated from. Also, Elias needs read-only exports with source details. He also asked for the record custodian to attend a short access discussion before any delivery dates are brought up. Technical expertise has to do with advising on the practicality of the operations. Whereas approval authority has to do with actual authorizations."
+      "value": "Elias Chen is the robotics systems engineer. As stated in W03-S02, he has the ability to explain the available command and schedule records and review the technical interpretations. However, he does not have the ability to tell where the repeated command originated from. Also, Elias needs read-only exports with source details. He also asked for the record custodian to attend a short access discussion before any delivery dates are brought up. Technical expertise has to do with advising on the practicality of the operations. Whereas approval authority has to do with actual authorizations."
     },
     {
       "id": "operations",
@@ -31,7 +31,7 @@
     {
       "id": "authority",
       "title": "Sponsor and record custodian",
-      "value": "In W03-S03, QA, Engineering, and Operations are named as participants in the proposed QA control review. The record-custodian entry has no named contact and there is no confirmation that a custodian accepted the responsibility, therefore this still needs confirmation. Operations routes recommendations to the authorizing sponsor. The name holder, approval limits, and signed authorization are not supplied. The sponsor can authorize the proposed work within the organization's approval process. "
+      "value": "In W03-S03, QA, Engineering, and Operations are named as participants in the proposed QA control review. The record-custodian entry has no named contact and there is no confirmation that a custodian accepted the responsibility, therefore this still needs confirmation. Operations routes recommendations to the authorizing sponsor. The name holder, approval limits, and signed authorization are not supplied. The sponsor can authorize the proposed work within the organization's approval process."
     },
     {
       "id": "conflict",
@@ -51,7 +51,7 @@
     {
       "id": "nextStep",
       "title": "Next step toward requirements",
-      "value": "There needs to be an agreement on the timing between operations and the night-shift because currently there is no agreement on timing recorded. There needs to be a distinction between the people doing the work, those who will be affected by it, the people offering specialist advice, and the role that has the power to authorize it. Reaching an agreement on the timing would allow night-shift and operations to effectively be voiced, which lead to a clear route for decisions and a usable summary. Still, this won't authorize the project. The record custodian also needs to be confirmed before detailed requirements interviews. "
+      "value": "There needs to be an agreement on the timing between operations and the night-shift because currently there is no agreement on timing recorded. There needs to be a distinction between the people doing the work, those who will be affected by it, the people offering specialist advice, and the role that has the power to authorize it. Reaching an agreement on the timing would allow night-shift and operations to effectively be voiced, which lead to a clear route for decisions and a usable summary. Still, this won't authorize the project. The record custodian also needs to be confirmed before detailed requirements interviews."
     },
     {
       "id": "bookUse",
