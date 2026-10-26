@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" version="24.7.17" type="device">
+  <diagram name="Current Process" id="w05-process">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="title" value="CIT 140 · Week 5 | Current Appointment Process" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="25" width="1080" height="40" as="geometry"/></mxCell>
+        <mxCell id="instructions" value="Replace this line with your process start and end. Add supported steps and decisions in the responsible role's lane. Label decision branches and source IDs." style="text;html=1;fontSize=13;align=left;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="40" y="75" width="1080" height="45" as="geometry"/></mxCell>
+        <mxCell id="visitor" value="Visitor" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="140" width="1080" height="100" as="geometry"/></mxCell>
+        <mxCell id="scheduling" value="Scheduling" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="240" width="1080" height="100" as="geometry"/></mxCell>
+        <mxCell id="clinical" value="Clinical&lt;br&gt;Operations" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="340" width="1080" height="100" as="geometry"/></mxCell>
+        <mxCell id="intake" value="Intake" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="440" width="1080" height="100" as="geometry"/></mxCell>
+        <mxCell id="handoff" value="Next staff team" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="540" width="1080" height="100" as="geometry"/></mxCell>
+        <mxCell id="legend" value="Symbol key (copy these shapes into your lanes; they are not case steps)" style="text;html=1;fontSize=13;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="665" width="1080" height="30" as="geometry"/></mxCell>
+        <mxCell id="l-start" value="Start / end" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" vertex="1" parent="1"><mxGeometry x="200" y="710" width="130" height="45" as="geometry"/></mxCell>
+        <mxCell id="l-activity" value="Activity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" vertex="1" parent="1"><mxGeometry x="390" y="710" width="130" height="45" as="geometry"/></mxCell>
+        <mxCell id="l-decision" value="Decision?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" vertex="1" parent="1"><mxGeometry x="590" y="700" width="100" height="65" as="geometry"/></mxCell>
+        <mxCell id="l-arrow" value="Labeled sequence" style="endArrow=block;html=1;strokeColor=#5a7c7d;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="780" y="735" as="sourcePoint"/><mxPoint x="980" y="735" as="targetPoint"/></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Scope and Findings" id="w05-findings">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Week 5 | Scope and Findings" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" vertex="1" parent="1"><mxGeometry x="45" y="25" width="1070" height="40" as="geometry"/></mxCell>
+        <mxCell id="scope" value="&lt;b&gt;1 · Process scope&lt;/b&gt;&lt;br&gt;[Your name. Process purpose, start, end, included roles, and what falls outside your diagram.]" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;" vertex="1" parent="1"><mxGeometry x="45" y="90" width="1070" height="110" as="geometry"/></mxCell>
+        <mxCell id="walkthrough" value="&lt;b&gt;2 · Check the two paths&lt;/b&gt;&lt;br&gt;[Trace an ordinary appointment and the incident appointment through your numbered steps. Explain the gap supported by W05-S04. State what the trace cannot prove.]" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" vertex="1" parent="1"><mxGeometry x="45" y="215" width="1070" height="140" as="geometry"/></mxCell>
+        <mxCell id="sources" value="&lt;b&gt;3 · Evidence and model review&lt;/b&gt;&lt;br&gt;[List source IDs beside the steps they support. Describe any correction you made after checking the model against the records. List remaining uncertainty and the person or record needed to resolve it. Do not invent stakeholder approval.]" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;" vertex="1" parent="1"><mxGeometry x="45" y="370" width="1070" height="140" as="geometry"/></mxCell>
+        <mxCell id="reflection" value="&lt;b&gt;4 · Learning reflection (reuse your Discord paragraph)&lt;/b&gt;&lt;br&gt;[In 3–5 sentences: what became clearer; where responsibility or information is unclear and its evidence; how process modeling differs from Week 4 requirements.]" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" vertex="1" parent="1"><mxGeometry x="45" y="525" width="1070" height="140" as="geometry"/></mxCell>
+        <mxCell id="evidence" value="&lt;b&gt;5 · Portfolio evidence&lt;/b&gt;&lt;br&gt;[Editable model filename and Week05/Evidence/Week05_Discord_Post.png or .jpg. If Discord is unavailable, identify the equivalent reflection used here.]&lt;br&gt;Save the .drawio file; export both pages as one PDF; check readability; commit and push." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=14;fillColor=#edf5f2;strokeColor=#5a7c7d;" vertex="1" parent="1"><mxGeometry x="45" y="680" width="1070" height="105" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

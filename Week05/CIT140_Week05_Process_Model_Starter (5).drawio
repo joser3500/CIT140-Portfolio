@@ -1,0 +1,239 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Current Process" id="w05-process">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" value="CIT 140 · Week 5 | Current Appointment Process" vertex="1">
+          <mxGeometry height="40" width="1080" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions" parent="1" style="text;html=1;fontSize=13;align=left;whiteSpace=wrap;" value="The process starts with a visitor that requests an appointment and ends when intake is able to pass the visitor to the next staff team." vertex="1">
+          <mxGeometry height="45" width="1080" x="40" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="visitor" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Visitor" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="48i4UWge7pQMZEk8nDJj-5" edge="1" parent="visitor" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" x="-0.2004" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="370" y="49.5" as="sourcePoint" />
+            <mxPoint x="400" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48i4UWge7pQMZEk8nDJj-2" parent="visitor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Visitor that requests an appointment." vertex="1">
+          <mxGeometry height="45" width="130" x="320" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="scheduling" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Scheduling" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="48i4UWge7pQMZEk8nDJj-3" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Record requested time and the support preferences. W05-S01" vertex="1">
+          <mxGeometry height="45" width="140" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="48i4UWge7pQMZEk8nDJj-4" parent="scheduling" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="&amp;nbsp;If the required booking details are missing? Contact the visitor, and review the revised request." vertex="1">
+          <mxGeometry height="72.5" width="120" x="630" y="13.75" as="geometry" />
+        </mxCell>
+        <mxCell id="48i4UWge7pQMZEk8nDJj-8" edge="1" parent="scheduling" source="48i4UWge7pQMZEk8nDJj-3" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="42.5" as="sourcePoint" />
+            <mxPoint x="620" y="42.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48i4UWge7pQMZEk8nDJj-9" parent="scheduling" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="A held slot is waiting for a readiness decision." vertex="1">
+          <mxGeometry height="65" width="70" x="1010" y="13.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ips63sMZVoIkbcZgR_bd-6" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="A booking message records the requested time, however it is not the clinical readiness record. W05-S01." vertex="1">
+          <mxGeometry height="45" width="110" x="890" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nGF79TgLixwqkx5sg76Z-1" edge="1" parent="scheduling" style="endArrow=block;html=1;strokeColor=#5a7c7d;entryX=0.643;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="20" as="sourcePoint" />
+            <mxPoint x="1024.44" y="22.850000000000136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGF79TgLixwqkx5sg76Z-2" edge="1" parent="scheduling" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="42" as="sourcePoint" />
+            <mxPoint x="900" y="42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clinical" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Clinical&lt;br&gt;Operations" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-4" parent="clinical" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="When they are available?" vertex="1">
+          <mxGeometry height="65" width="110" x="620" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-5" edge="1" parent="clinical" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="59.5" as="sourcePoint" />
+            <mxPoint x="620" y="59.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-activity" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="When they are not available, the appointment stays held and they review capacity or ask scheduling to arrange another slot. W05-S02." vertex="1">
+          <mxGeometry height="45" width="180" x="910" y="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-12" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Readiness check" vertex="1">
+          <mxGeometry height="45" width="130" x="190" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-15" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="With availability they record readiness for the appointment. W05-S02." vertex="1">
+          <mxGeometry height="45" width="120" x="760" y="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="intake" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Intake" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-7" edge="1" parent="intake" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="-70" as="sourcePoint" />
+            <mxPoint x="1050" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-11" parent="intake" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="What occurs when visitor arrives?" vertex="1">
+          <mxGeometry height="65" width="100" x="200" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-14" edge="1" parent="intake" source="oKTkkuYfEQr5oMEUo_W6-15" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=0.15;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="30" as="sourcePoint" />
+            <mxPoint x="300" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-18" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="With visitor arrival they locate the appointment and check the readiness status. As stated in W05-S03." vertex="1">
+          <mxGeometry height="45" width="130" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-19" edge="1" parent="intake" source="oKTkkuYfEQr5oMEUo_W6-11" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="62" as="sourcePoint" />
+            <mxPoint x="340" y="62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-20" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="If it shows readiness, they look through support arrangements and pass visitor to next staff team, W05-S03.&amp;nbsp;" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-22" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Held appointments will enter exception review with scheduling and clinical operations. Stated in W05-S03, the appointment will return to readiness check when a clarified status reaches intake.&amp;nbsp;" vertex="1">
+          <mxGeometry height="45" width="250" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-23" edge="1" parent="intake" style="endArrow=block;html=1;strokeColor=#5a7c7d;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oKTkkuYfEQr5oMEUo_W6-22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="62" as="sourcePoint" />
+            <mxPoint x="770" y="62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-25" edge="1" parent="intake" source="oKTkkuYfEQr5oMEUo_W6-22" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=0.791;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="40" as="sourcePoint" />
+            <mxPoint x="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="handoff" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Next staff team" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-26" parent="handoff" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Ready appointment reaching the next staff team." vertex="1">
+          <mxGeometry height="45" width="130" x="730" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-24" edge="1" parent="handoff" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="-10" as="sourcePoint" />
+            <mxPoint x="720" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;fontSize=13;align=left;" value="Symbol key (copy these shapes into your lanes; they are not case steps)" vertex="1">
+          <mxGeometry height="30" width="1080" x="40" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="l-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Start / end" vertex="1">
+          <mxGeometry height="45" width="130" x="200" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="l-decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Decision?" vertex="1">
+          <mxGeometry height="65" width="100" x="590" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="l-arrow" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="Labeled sequence">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="735" as="sourcePoint" />
+            <mxPoint x="980" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ips63sMZVoIkbcZgR_bd-5" edge="1" parent="1" source="48i4UWge7pQMZEk8nDJj-4" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="230" as="sourcePoint" />
+            <mxPoint x="500" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ips63sMZVoIkbcZgR_bd-8" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="320" as="sourcePoint" />
+            <mxPoint x="370" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-1" edge="1" parent="1" source="ips63sMZVoIkbcZgR_bd-4" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="290" as="sourcePoint" />
+            <mxPoint x="829" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="In W05-S02, they check whether the room and qualified clinician are available." vertex="1">
+          <mxGeometry height="45" width="130" x="469" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-3" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="368.8996187492944" y="394.1225560483415" as="sourcePoint" />
+            <mxPoint x="460" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Activity" vertex="1">
+          <mxGeometry height="45" width="130" x="395" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-13" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" target="ips63sMZVoIkbcZgR_bd-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="290" as="sourcePoint" />
+            <mxPoint x="829" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ips63sMZVoIkbcZgR_bd-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="If the details are complete, request the clinical readiness decision. W05-S01" vertex="1">
+          <mxGeometry height="45" width="110" x="810" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-16" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" target="oKTkkuYfEQr5oMEUo_W6-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="773" y="404" as="sourcePoint" />
+            <mxPoint x="810" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-17" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="914" y="407" as="sourcePoint" />
+            <mxPoint x="956" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKTkkuYfEQr5oMEUo_W6-21" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="510" as="sourcePoint" />
+            <mxPoint x="590" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Scope and Findings" id="w05-findings">
+    <mxGraphModel dx="1561" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" value="Week 5 | Scope and Findings" vertex="1">
+          <mxGeometry height="40" width="1070" x="45" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="&lt;b&gt;1 · Process scope&lt;/b&gt;&lt;br&gt;Jose Romero. The purpose of the appointment process is to illustrate how it actually functions and where the handoff becomes unclear. It begins with a visitor that requests for an appointment, it ends with the visitor being passed over to the next staff team in the instance that the readiness status checks out properly. What falls outside of the diagram is the assessment of why in fact the readiness decision is missing." vertex="1">
+          <mxGeometry height="110" width="1070" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="walkthrough" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" value="&lt;b&gt;2 · Check the two paths&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;The gap is supported by W05-S04 because&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;no completed readiness decision was present in the supplied trace before arrival. At intake, held slots will enter exception review. However, the trace is unable to prove an action never happened.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="1070" x="45" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="sources" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="&lt;b&gt;3 · Evidence and model review&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Source W05-S01 is able to record the request slot along with the support preferences. The held slot recorded is supported by W05-S02, because if there is unavailability a held status is retained. Then, in W05-S03, with the visitor arriving, the appointment is located and readiness is checked. Here the ready appointment will proceed to support arrangement confirmation to the next staff team. Furthermore, in W05-S03, the held appointments will enter exception review with scheduling and clinical operations. I made corrections to how the held status is determined.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;The remaining uncertainty is that no completed readiness decision is present in the supplied trace before arrival, and it does not tell why that decision is unavailable. The record needed to resolve it is source W05-S02 since a held status is retained and capacity is reviewed.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="1070" x="45" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="reflection" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" value="&lt;b&gt;4 · Learning reflection (reuse your Discord paragraph)&lt;/b&gt;&lt;br&gt;&lt;div&gt;The current model process became clearer because it illustrated the very start, from the visitor requesting the appointment, all the way to the end of a successful appointment reaching the next staff team. Additionally, following the appointment from request to intake cleared up which departments handle what specifically, and how the incident became uncertain. Responsibility is unclear for determining why the trace in W05-S04 failed to show a completed readiness decision arriving at intake. Process modeling differs from the Week 4 requirements because the modeling illustrates the process from initialization to the end, while the requirements were intended to demonstrate what is necessary.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="1070" x="45" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=14;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="&lt;b&gt;5 · Portfolio evidence&lt;/b&gt;&lt;br&gt;[Editable model filename and Week05/Evidence/Week05_Discord_Post.png or .jpg. If Discord is unavailable, identify the equivalent reflection used here.]&lt;br&gt;Save the .drawio file; export both pages as one PDF; check readability; commit and push." vertex="1">
+          <mxGeometry height="105" width="1070" x="45" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
