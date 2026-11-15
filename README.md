@@ -4,51 +4,31 @@ This repository contains my CIT 140 portfolio
 
 
 
-1. Week 01 - Problem Brief – Meridian Forge - https://github.com/joser3500/CIT140
+1. Week 01 - Problem Brief – Meridian Forge - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week01\_Something\_Isnt\_Adding\_Up/artifact/Romero\_Jose%20CIT%20140%20Week%201%20Problem%20Brief.pdf
 
-Portfolio/blob/71f075cf2fc4cae29d2bc6cedfdd2d4e84ebd4ea/Week01\_Something\_Isnt\_
 
-Adding\_Up/artifact/Romero\_Jose%20CIT%20140%20Week%201%20Problem%20Brief
 
-.pdf  
+2\. Week 02 - Business Case Recommendation – Meridian Forge - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week02/Romero\_Jose\_CIT140%20Week%2002%20%E2%80%94%20Business%20Case%20Recommendation.pdf
 
-2\. Week 02 - Business Case Recommendation – Meridian Forge - 
 
-https://github.com/joser3500/CIT140
 
-Portfolio/blob/71f075cf2fc4cae29d2bc6cedfdd2d4e84ebd4ea/Week02/Romero\_Jose\_CIT
+3\. Week 03 - Stakeholder Map – Meridian Forge - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week03/Romero\_Jose\_CIT140%20Week%2003%20-%20Stakeholder%20Map.pdf
 
-140%20Week%2002%20%E2%80%94%20Business%20Case%20Recommendation.pdf 
 
-3\. Week 03 - Stakeholder Map – Meridian Forge - https://github.com/joser3500/CIT140
 
-Portfolio/blob/71f075cf2fc4cae29d2bc6cedfdd2d4e84ebd4ea/Week03/Romero\_Jose\_CIT
+4\. Week 04 - Validated Requirements Set – Cedar Junction - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week04/Romero\_Jose\_CIT140%20Week%204%20Validated%20Requirements.pdf
 
-140%20Week%2003%20-%20Stakeholder%20Map.pdf   
 
-4\. Week 04 - Validated Requirements Set – Cedar Junction - 
 
-https://github.com/joser3500/CIT140
+5\. Week 05 - As-Is Process Model – Cedar Junction - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week05/artifact/Romero\_Jose\_CIT140\_Week05\_Process\_Model\_Starter.drawio%20(1).pdf
 
-Portfolio/blob/71f075cf2fc4cae29d2bc6cedfdd2d4e84ebd4ea/Week04/Romero\_Jose\_CIT
 
-140%20Week%204%20Validated%20Requirements.pdf  
 
-5\. Week 05 - As-Is Process Model – Cedar Junction - https://github.com/joser3500/CIT140
+6\. Week 06 - Data-Flow Model – Cedar Junction - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week06/Artifact/Romero\_Jose\_CIT140-Week06-Starter.drawio.pdf
 
-Portfolio/blob/71f075cf2fc4cae29d2bc6cedfdd2d4e84ebd4ea/Week05/artifact/Romero\_J
 
-ose\_CIT140\_Week05\_Process\_Model\_Starter.drawio%20(1).pdf  
 
-6\. Week 06 - Data-Flow Model – Cedar Junction - https://github.com/joser3500/CIT140
+7\. Week 07 - Data-Quality Report – Meridian Forge - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week07/Artifact/Romero\_Jose\_CIT140-Week07.pdf.pdf 
 
-Portfolio/blob/71f075cf2fc4cae29d2bc6cedfdd2d4e84ebd4ea/Week06/Artifact/Romero\_J
 
-ose\_CIT140-Week06-Starter.drawio.pdf  
-
-7\. Week 07 - Data-Quality Report – Meridian Forge - https://github.com/joser3500/CIT140
-
-Portfolio/blob/71f075cf2fc4cae29d2bc6cedfdd2d4e84ebd4ea/Week07/Artifact/Romero\_J
-
-ose\_CIT140-Week07.pdf.pdf  
 
