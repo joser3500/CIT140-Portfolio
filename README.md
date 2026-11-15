@@ -4,6 +4,10 @@ This repository contains my CIT 140 portfolio
 
 
 
+Week 8 Portfolio - https://github.com/joser3500/CIT140-Portfolio/blob/0793d87ebd3bda35ab4a4c7126f1d0789e039de4/Week08/Artifact/Romero\_Jose\_CIT140\_Portfolio\_Review.pdf 
+
+
+
 1. Week 01 - Problem Brief – Meridian Forge - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week01\_Something\_Isnt\_Adding\_Up/artifact/Romero\_Jose%20CIT%20140%20Week%201%20Problem%20Brief.pdf
 
 
@@ -28,7 +32,5 @@ This repository contains my CIT 140 portfolio
 
 
 
-7\. Week 07 - Data-Quality Report – Meridian Forge - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week07/Artifact/Romero\_Jose\_CIT140-Week07.pdf.pdf 
-
-
+7\. Week 07 - Data-Quality Report – Meridian Forge - https://github.com/joser3500/CIT140-Portfolio/blob/4a840cc11f83122938543237a084c8763c55cf93/Week07/Artifact/Romero\_Jose\_CIT140-Week07.pdf.pdf
 
